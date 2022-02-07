@@ -2,7 +2,7 @@
 
 Offcial implementation of AAAI2020 paper, Multi-source distilling domain adaptation[https://arxiv.org/abs/1911.11554]
 
-![image-20200204103252564](https://github.com/daoyuan98/MDDA/blob/master/images/MDDA.png)
+![image](https://github.com/daoyuan98/MDDA/images/MDDA.png)
 
 ## Libraries
 
@@ -22,7 +22,7 @@ Since the sources in digits5 experiments are in different formats, we preprocess
 
 ## Execution
 
-As illustrated in the above figure,  There are mainly 4 stages in our framework. In this repo, we give an experiments on ``mnist`` as an example. To execute them, you may execute the following steps sequentially. All of these scripts are in the directory of ``scripts``.
+As illustrated in the above figure,  There are mainly 4 stages in our framework. In this repo, we give an experiments on ``usps`` as an example. To execute them, you may execute the following steps sequentially. All of these scripts are in the directory of ``scripts``.
 
 #### 1. Source classifier pre-training
 
